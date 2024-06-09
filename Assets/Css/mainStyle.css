@@ -1,0 +1,9 @@
+@charset "UTF8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body, div, article header, p{
+    box-sizing: border-box;
+}
