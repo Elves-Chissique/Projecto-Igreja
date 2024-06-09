@@ -7,3 +7,42 @@
 html, body, div, article header, p{
     box-sizing: border-box;
 }
+
+header{
+    
+}
+
+header > .header{
+    
+}
+
+header > .header > article{
+    
+}
+
+header > .header > article > nav{
+    
+}
+
+header > .header > article > nav ul{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: cneter;
+    
+}
+
+header > .header > article > nav > ul > li{
+    background-color: blue;
+    display: inline-block;
+    padding: .3em 1.5em;
+    list-style-type:none;
+}
+
+    header > .header > article > nav > ul > li > ul > li{
+        background-color: blue;
+        display: none;
+        padding: .3em 1.5em;
+        list-style-type:none;
+    }
+
