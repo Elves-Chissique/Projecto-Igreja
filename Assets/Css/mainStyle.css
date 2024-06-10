@@ -9,12 +9,12 @@ html, body, div, article header, p, nav, ul, li{
 }
 
 body, html{
-    overflow-x: hidden;
+   
     scrollbar-width: thin;
 }
 
 header{
-    
+  overflow-x: hidden;
 }
 
 header > .header{
@@ -128,6 +128,7 @@ header > .header > article > nav > ul > li > div > ul{
     }
 
 header  .fundo-principal{
+    background-image: url(../img/background.webp);
     width: 100vw;
     height: 89vh;
     background-color: black;
@@ -143,4 +144,90 @@ header > .fundo-principal .saudar{
     align-items: center;
     flex-direction: column;
     width: 100%;
+}
+
+header > .fundo-principal .saudar > article{
+    display: flex;
+    margin-top: 15em;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 4px #000;
+
+}
+
+header > .fundo-principal .saudar > article > h2{
+    color: brown;
+
+}
+
+header > .fundo-principal .saudar > article > h1{
+    color: #fff;
+    margin: .5em;
+    font-size: 2.5em;
+
+}
+
+header > .fundo-principal .saudar article > h3{
+    color: #fff;
+    font-size: 1.8em;
+
+}
+
+/*Section*/
+
+section > .programa{
+    position: relative;
+}
+
+section > .programa  > .box-programa{
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    gap: 2em;
+    padding: 0 10em;
+    position: absolute;
+    width: 100%;
+    top: -3em;
+}
+
+section > .programa  > .box-programa > div{
+    box-shadow: 0px 0px 4px;
+    margin-bottom: 1.5em;
+    padding: 1em;
+    z-index: 1;
+    background-color: #fff;
+}
+
+section > .programa  > .box-programa > div > .hora-progra{
+    display: block;
+    text-align: center;
+    padding: .15em 0;
+    font-size: 2.2em;
+    color: brown;
+}
+.dia-semana{
+    display: block;
+    text-align: center;
+    padding: .15em 0;
+    color: aqua;
+    font-size: 1.3em;
+    margin-bottom: .5em;
+}
+
+.info-programa{
+    text-align: justify;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color:#000;
+    display: block;
+}
+
+
+.lorem{
+    position: relative;
+    top: 16em;
+    background-color: red;
 }
