@@ -133,3 +133,14 @@ header  .fundo-principal{
     background-color: black;
     box-sizing: border-box;
 }
+
+header > .fundo-principal .saudar{
+    height: 98vh;
+    position:absolute;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
