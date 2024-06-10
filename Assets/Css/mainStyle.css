@@ -235,10 +235,12 @@ section > .programa  > .box-programa > div > .hora-progra{
 }
 
 .info-programa{
-    text-align: justify;
-    font-family: 'Arial Narrow Bold', sans-serif;
-    color:#000;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color:#353333;
     display: block;
+    font-size: .9em;
+    letter-spacing: 1px;
 }
 
 /*Sitações Biblicas*/
@@ -251,7 +253,7 @@ section > .bible-quote-container > article {
     background-color: rgb(43, 40, 40);
     display: flex;
     padding: 1em 5em;
-    height: 60vh;
+    height: 65vh;
 }
 
 
@@ -296,8 +298,8 @@ section > .bible-quote-container > article > div > p{
     margin-bottom: 1em;
     font-size: .9em;
     font-style: italic;
-    font-family: 'Arial Narrow Bold', sans-serif;
-    color: #585454;
+    color: #70a4d4a2;
+    width: 90%;
 }
 
 
@@ -312,7 +314,6 @@ section > .bible-quote-container > article > div > ul > li{
 }
 
 section > .bible-quote-container > article > div > ul > li > a{
- text-decoration: none;
  color: #fff; 
  transition: .5s;
 }
