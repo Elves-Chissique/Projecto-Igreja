@@ -226,8 +226,58 @@ section > .programa  > .box-programa > div > .hora-progra{
 }
 
 
-.lorem{
+section > .bible-quote-container{
     position: relative;
     top: 16em;
-    background-color: red;
+}
+section > .bible-quote-container > article {
+    display: flex;
+    background-color: rgb(216, 198, 198);
+    justify-content: center;
+    align-items: center;
+}
+
+
+section > .bible-quote-container > article > div {
+    width: 40%;
+    height: 70vh;
+    padding: 0 5em;
+    overflow: hidden;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+section > .bible-quote-container > article > div > img {
+    width:100%;
+}
+
+section > .bible-quote-container > article > div > .quote-symbole {
+    color: brown;
+    display: block;
+    font-size: 4em;
+}
+section > .bible-quote-container > article > div > h2{
+    font-size: 2.1em;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: brown;
+}
+
+section > .bible-quote-container > article > div > p{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: .9em;
+    font-style: italic;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: #585454;
+}
+
+
+
+section > .bible-quote-container > article > div > ul > li{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: .8em;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: brown;
+    
 }
