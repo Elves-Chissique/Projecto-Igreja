@@ -4,8 +4,13 @@
     margin: 0;
     padding: 0;
 }
-html, body, div, article header, p{
+html, body, div, article header, p, nav, ul, li{
     box-sizing: border-box;
+}
+
+body, html{
+    overflow-x: hidden;
+    scrollbar-width: thin;
 }
 
 header{
@@ -21,28 +26,110 @@ header > .header > article{
 }
 
 header > .header > article > nav{
+    background-color: brown;
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5em;
+    box-sizing: border-box;
+    border-bottom:2px solid aqua ;
+    
+}
+
+header > .header > article > nav > .Logo {
+    display: flex;
+    align-items: center;
+    padding: .2em;
+}
+
+header > .header > article > nav > .Logo > img{
+    width: 4em;
     
 }
 
 header > .header > article > nav ul{
-    background-color: red;
     display: flex;
     justify-content: center;
     align-items: cneter;
-    
+    width: 80%;
+    cursor:pointer;
 }
 
 header > .header > article > nav > ul > li{
-    background-color: blue;
     display: inline-block;
+    position: relative;
     padding: .3em 1.5em;
     list-style-type:none;
+    font-size: 1.2em;
+    color: #fff;
+    box-sizing: border-box;
 }
 
-    header > .header > article > nav > ul > li > ul > li{
-        background-color: blue;
-        display: none;
+
+header > .header > article > nav > ul > li::after{
+   content: "";
+   width: 0%;
+   background-color: black;
+   height: 2px;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   transition: .8s ease-in-out;
+   cursor:pointer;
+}
+
+header > .header > article > nav > ul > li:hover::after{
+    width: 100%;
+ }
+
+ header > .header > article > nav > ul > li > .dropNone{
+    width: 7em;
+    height: 6em;
+    position: absolute;
+    margin-left:-1.5em;
+    margin-top: 0;
+}
+header > .header > article > nav > ul > li > div > ul{
+    background-color: black;
+    list-style-type:none;
+    height: 5em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:1.3em;
+    width: 7em;
+    margin-left: 0em;
+    padding: .3em 1.5em;
+    position: relative;
+}
+
+ header > .header > article > nav > ul > li > .dropDown-child {
+    display: none;
+}
+
+
+
+.show-child{
+    display: flex; 
+}
+
+    header > .header > article > nav > ul > li > div> ul > li{
         padding: .3em 1.5em;
         list-style-type:none;
+        text-align: left;
+        position: relative;
+
     }
 
+    header > .header > article > nav > ul > li > div> ul > li:hover{
+      background-color: brown;
+
+    }
+
+header  .fundo-principal{
+    width: 100vw;
+    height: 89vh;
+    background-color: black;
+    box-sizing: border-box;
+}
