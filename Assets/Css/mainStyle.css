@@ -9,7 +9,6 @@ html, body, div, article header, p, nav, ul, li{
 }
 
 body, html{
-   
     scrollbar-width: thin;
 }
 
@@ -61,7 +60,7 @@ header > .header > article > nav > ul > li{
     position: relative;
     padding: .3em 1.5em;
     list-style-type:none;
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: #fff;
     box-sizing: border-box;
 }
@@ -129,10 +128,12 @@ header > .header > article > nav > ul > li > div > ul{
 
 header  .fundo-principal{
     background-image: url(../img/background.webp);
+    background-position: center;
     width: 100vw;
     height: 89vh;
     background-color: black;
     box-sizing: border-box;
+
 }
 
 header > .fundo-principal .saudar{
@@ -165,15 +166,17 @@ header > .fundo-principal .saudar > article > h2{
 }
 
 header > .fundo-principal .saudar > article > h1{
-    color: #fff;
+    color: #2E90E9;
     margin: .5em;
     font-size: 2.5em;
+    cursor: pointer;
 
 }
 
 header > .fundo-principal .saudar article > h3{
-    color: #fff;
-    font-size: 1.8em;
+    color: #2e90e9;
+    font-size: 1.5em;
+    margin-top: -.5em;
 
 }
 
@@ -200,22 +203,34 @@ section > .programa  > .box-programa > div{
     padding: 1em;
     z-index: 1;
     background-color: #fff;
+    position: relative;
 }
 
 section > .programa  > .box-programa > div > .hora-progra{
     display: block;
     text-align: center;
-    padding: .15em 0;
-    font-size: 2.2em;
+    padding: 0;
+    font-size: 2.5em;
     color: brown;
+    position: absolute;
+    top: .2em;
+    right: .4em;
+    border-radius: 10px;
 }
 .dia-semana{
-    display: block;
+    display: flex;
     text-align: center;
     padding: .15em 0;
-    color: aqua;
-    font-size: 1.3em;
+    color: #2e90e9;
+    font-size: 2.5em;
     margin-bottom: .5em;
+    margin-top: .5em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dia-semana img{
+    width: 1.5em;
 }
 
 .info-programa{
@@ -225,26 +240,39 @@ section > .programa  > .box-programa > div > .hora-progra{
     display: block;
 }
 
+/*Sitações Biblicas*/
 
 section > .bible-quote-container{
     position: relative;
     top: 16em;
 }
 section > .bible-quote-container > article {
+    background-color: rgb(43, 40, 40);
     display: flex;
-    background-color: rgb(216, 198, 198);
-    justify-content: center;
-    align-items: center;
+    padding: 1em 5em;
+    height: 60vh;
 }
 
 
 section > .bible-quote-container > article > div {
-    width: 40%;
-    height: 70vh;
-    padding: 0 5em;
+    box-shadow: 0px 0px 4px;
     overflow: hidden;
-    margin-bottom: 1em;
-    margin-top: 1em;
+    cursor: default;
+    transition: 1s;
+}
+
+section > .bible-quote-container > article > div:hover {
+    box-shadow: 0px 0px 6px #2E90E9;
+}
+
+div.texto-imagem{
+    padding: 0 4em;
+    width: 55%;
+}
+
+div#imageQuote{
+    width: 45%;
+  
 }
 
 section > .bible-quote-container > article > div > img {
@@ -278,6 +306,17 @@ section > .bible-quote-container > article > div > ul > li{
     margin-bottom: 1em;
     font-size: .8em;
     font-family: 'Arial Narrow Bold', sans-serif;
-    color: brown;
+    color: #fff;
     
 }
+
+section > .bible-quote-container > article > div > ul > li > a{
+ text-decoration: none;
+ color: #fff; 
+ transition: .5s;
+}
+
+section > .bible-quote-container > article > div > ul > li > a:hover{
+    text-decoration: none;
+    color:#2E90E9;
+   }
