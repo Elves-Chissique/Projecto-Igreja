@@ -2,10 +2,10 @@
 let dropDownMother = window.document.querySelector('.dropDown-mother');
 let dropDownChild = window.document.querySelector('.dropDown-child');
 
-
 //Addicionando eventos de escutadores de eventos / movimentos de mouse
-dropDownMother.addEventListener('mouseenter', showCh) //mostrar
-dropDownMother.addEventListener('mouseleave', hideCh) //ocultar
+
+dropDownMother.addEventListener('mouseenter', showCh); //most
+dropDownMother.addEventListener('mouseleave', hideCh); //ocultar
 
 
 function showCh(){
