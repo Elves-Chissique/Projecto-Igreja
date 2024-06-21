@@ -339,6 +339,7 @@ section > .bible-quote-container > article > div > ul > li > a:hover{
 .sub-page-wrapper{
     background: transparent;
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     width: 100%;
 
 }
@@ -385,10 +386,9 @@ section > .bible-quote-container > article > div > ul > li > a:hover{
 
 footer{
     height: 42vh;
-    background-image: url('../img/footer.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #1e1d1d;
+    color: #fff;
+    padding: 2em;
 }
 
 
