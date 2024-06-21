@@ -391,4 +391,25 @@ footer{
     padding: 2em;
 }
 
+footer > .container{ 
+  display: flex;
+  align-items: center;
+  gap: 3em;
+}
+
+footer > .container > div{ 
+    display: flex;
+    width: 100%;
+    background-color: brown;
+    padding-left:0.29em ;
+    padding-bottom:0.29em ;
+    padding-top:0.29em ;
+    gap: 3em;
+}
+
+footer > .container > div img{ 
+    border-radius: 4em;
+    width: 22%;
+}
+
 
