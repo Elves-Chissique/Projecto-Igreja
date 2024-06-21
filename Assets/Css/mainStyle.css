@@ -326,7 +326,17 @@ section > .bible-quote-container > article > div > ul > li > a:hover{
 }
 
 .page-wrapper{
-    background-image: ;
+    background-image: url('../img/other-background.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sub-page-wrapper{
+    background: transparent;
+    backdrop-filter: blur(10px);
+    width: 100%;
+
 }
 
 .post-slide{
@@ -335,6 +345,7 @@ section > .bible-quote-container > article > div > ul > li > a:hover{
     align-items: center;
     flex-direction: column;
     margin-top: 3em;
+    width: 93.7vw;
 }
 .post-slide h1{
    font-size: 1.8vw;
@@ -346,12 +357,13 @@ section > .bible-quote-container > article > div > ul > li > a:hover{
 
 
 .post-wrapper{
-    font-size: 4.2vw;
-    margin-bottom: 2em;
+    font-size: 3.2vw;
+    margin-bottom: 1em;
     width: 70%;
-    text-align: center;
-    color:#cec4c4;
-    text-shadow: 5px 5px 2px #000;
+    text-align: justify;
+    color:#ffffff;
+    text-shadow: 3px 3px 2px green;
+    font-weight: bolder;
 }
 
 .nossa-localizacao{
@@ -359,4 +371,15 @@ section > .bible-quote-container > article > div > ul > li > a:hover{
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-bottom: 2em;
 }
+
+.nossa-localizacao iframe{
+  width: 70vw;
+  height: 50vh;
+}
+
+footer{
+    height: 25vh;
+}
+
