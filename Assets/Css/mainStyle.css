@@ -326,7 +326,11 @@ section > .bible-quote-container > article > div > ul > li > a:hover{
 }
 
 .page-wrapper{
-    background-image: url('../img/other-background.jpg');
+   background-image: url('../img/pombo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #1e1d1d;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -380,6 +384,11 @@ section > .bible-quote-container > article > div > ul > li > a:hover{
 }
 
 footer{
-    height: 25vh;
+    height: 42vh;
+    background-image: url('../img/footer.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
