@@ -323,4 +323,20 @@ section > .bible-quote-container > article > div > ul > li > a{
 section > .bible-quote-container > article > div > ul > li > a:hover{
     text-decoration: none;
     color:#2E90E9;
-   }
+}
+
+.post-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.post-wrapper{
+    font-size: 4em;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    width: 70%;
+}
+
