@@ -325,18 +325,38 @@ section > .bible-quote-container > article > div > ul > li > a:hover{
     color:#2E90E9;
 }
 
+.page-wrapper{
+    background-image: ;
+}
+
 .post-slide{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 3em;
+}
+.post-slide h1{
+   font-size: 1.8vw;
+   color: brown;
+   background-color: rgb(43, 40, 40);
+   padding:.5em 1em;
+   border-radius: 15px;
 }
 
 
 .post-wrapper{
-    font-size: 4em;
-    margin-top: 2em;
-    margin-bottom: 3em;
+    font-size: 4.2vw;
+    margin-bottom: 2em;
     width: 70%;
+    text-align: center;
+    color:#cec4c4;
+    text-shadow: 5px 5px 2px #000;
 }
 
+.nossa-localizacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
